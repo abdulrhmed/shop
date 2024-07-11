@@ -1,0 +1,149 @@
+/* start .about */
+.about {
+  background-color: #59ab6ef3;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.about .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about .text-page {
+  width: 45%;
+}
+.about .text-page h1 {
+  font-size: calc(1.375rem + 1.5vw);
+  color: #f8f9fa;
+  margin-bottom: 1rem;
+}
+.about .text-page p{
+  color: #f8f9fa;
+  line-height: 1.5;
+}
+.about .imge {
+  width: 40%;
+}
+.about .imge img {
+  width: 100%;
+}
+@media (max-width: 640px){
+  .about .container {
+    flex-direction: column;
+  }
+  .about .text-page {
+    width: 100%;
+  }
+  .about .imge {
+    width: 100%;
+}
+}
+/* end .about */
+/* start Services */
+.Services {
+  padding: 4rem 0;
+ 
+}
+.Services .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Services .container .sapt{
+    text-align: center;
+}
+.Services .boxServices {
+    margin-top: 2rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+}
+.Services .boxServices .boxser {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 3rem;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    gap: 1.3rem;
+    cursor: pointer;
+    transition: ease;
+}
+.Services .boxServices .boxser:nth-child(1):hover{
+  box-shadow: 0 0.5rem 1rem 2px rgba(89, 171, 110, 0.521) !important;
+}
+.Services .boxServices .boxser:nth-child(2):hover{
+  box-shadow: 0 0.5rem 1rem 2px rgba(89, 171, 110, 0.521) !important;
+}
+.Services .boxServices .boxser:nth-child(3):hover{
+  box-shadow: 0 0.5rem 1rem 2px rgba(89, 171, 110, 0.521) !important;
+}
+.Services .boxServices .boxser:nth-child(4):hover{
+  box-shadow: 0 0.5rem 1rem 2px rgba(89, 171, 110, 0.521) !important;
+}
+.Services .boxServices .boxser:nth-child(5):hover{
+  box-shadow: 0 0.5rem 1rem 2px rgba(89, 171, 110, 0.521) !important;
+}
+.Services .boxServices .boxser:first-child .ic{
+    line-height: 1em;
+}
+.Services .boxServices .boxser .ic {
+    color: rgb(89, 171, 110) !important;
+    font-size: 50px; 
+
+  }
+
+.Services .boxServices .boxser h5{
+    font-size: 1.25rem;
+
+}
+@media (max-width: 1024px){
+  .Services .boxServices {
+    flex-direction: column;
+}
+
+
+}
+/* end Services */
+
+ /* :start Brands  */
+
+.brands{
+  padding: 4rem 0;
+}
+.brands .sapt{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.brands .brand{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brands .brand img{
+  width: calc(40% / 4);
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: .5s;
+  cursor: pointer;
+}
+.brands .brand i{
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: .5s;
+  cursor: pointer;
+}
+.brands .brand img:hover{
+  filter: grayscale(0%);
+  opacity: 1;
+}
+.brands .brand i:hover{
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+ /* :end Brands  */
