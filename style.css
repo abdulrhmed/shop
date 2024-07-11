@@ -488,6 +488,7 @@ section .carousel-inner p {
     display: flex;
     flex-direction: column;
     gap: 5rem;
+    align-items: center;
   }
   .two .boxtwo {
     width: 100%;
